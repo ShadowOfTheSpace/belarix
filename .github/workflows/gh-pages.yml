@@ -2,9 +2,9 @@ name: React app deployment
 
 on:
   push:
-    branches: [ master ]
+    branches: [ production ]
   pull_request:
-    branches: [ master ]
+    branches: [ production ]
 
 jobs:
   build:
