@@ -1,7 +1,11 @@
-import "./App.css";
+import { Header } from "./libs/components/header/header";
 
 function App() {
-  return <></>;
+  return (
+    <div className="flex flex-col bg-bxm-main">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
