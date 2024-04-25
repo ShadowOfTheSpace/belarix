@@ -35,7 +35,7 @@ const useHandleClickOutside = ({
         document.removeEventListener("click", handleClickOutside);
       };
     }
-  }, [condition, onClick, ref]);
+  }, [condition, ignoringDataAttribute, onClick, ref]);
 };
 
 export { useHandleClickOutside };
