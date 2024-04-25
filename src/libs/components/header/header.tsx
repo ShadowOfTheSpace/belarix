@@ -26,6 +26,7 @@ const Header: React.FC = () => {
 
   useHandleClickOutside({
     condition: isSidebarShown,
+    ignoringDataAttribute: "sidebar",
     onClick: handleCloseSidebar,
     ref: sidebarReference,
   });
