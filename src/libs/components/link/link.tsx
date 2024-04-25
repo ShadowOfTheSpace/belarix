@@ -3,6 +3,7 @@ type Properties = {
   className?: string;
   href: string;
   isOpenInNewPage?: boolean;
+  onClick?: () => void;
 };
 
 const Link: React.FC<Properties> = ({
@@ -10,6 +11,7 @@ const Link: React.FC<Properties> = ({
   className,
   href,
   isOpenInNewPage = false,
+  onClick,
 }) => {
   return (
     <a
@@ -17,6 +19,7 @@ const Link: React.FC<Properties> = ({
       href={href}
       target={isOpenInNewPage ? "_blank" : undefined}
       rel="noreferrer"
+      onClick={onClick}
     >
       {children}
     </a>
