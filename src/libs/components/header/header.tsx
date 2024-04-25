@@ -50,9 +50,9 @@ const Header: React.FC = () => {
           <div className="flex md:flex-row flex-col md:items-end gap-x-[27px] gap-y-[17px] lg:ml-[163px] md:h-full self-start">
             <Link
               className="md:mt-[19px] font-medium text-[14px] text-bxm-white md:text-[16px] has-hover:hover:text-bxm-gray no-hover:active:text-bxm-gray tracking-lighter transition-colors md:self-start"
-              href="#"
+              href={`mailto:${CONTACT_EMAIL}`}
             >
-              info@belarix.media
+              {CONTACT_EMAIL}
             </Link>
             <Button onClick={handleContactButtonClick}>Contact Us</Button>
           </div>
