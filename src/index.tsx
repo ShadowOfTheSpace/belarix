@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./assets/css/index.css";
-import { Header, Hero } from "./libs/components/components";
+import "@assets/css/index.css";
+import { Header, Hero } from "@libs/components/components";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
