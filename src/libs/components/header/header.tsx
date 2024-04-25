@@ -26,12 +26,13 @@ const Header: React.FC = () => {
 
   useHandleClickOutside({
     condition: isSidebarShown,
+    ignoringDataAttribute: "sidebar",
     onClick: handleCloseSidebar,
     ref: sidebarReference,
   });
 
   return (
-    <header className="flex justify-center px-[10px] sm:px-[40px] pt-[16px] sm:pt-[13px] 1pb-0 pb-[19px] w-full">
+    <header className="flex justify-center pt-[16px] sm:pt-[13px] w-full">
       <div className="flex justify-between items-center md:items-start basis-[1200px]">
         <Link href="/">
           <Logo className="w-[80px] s:w-[130px] xs:w-[100px] h-[32px] s:h-[52px] xs:h-[40px]" />

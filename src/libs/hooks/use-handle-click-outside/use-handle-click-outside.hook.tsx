@@ -2,32 +2,37 @@ import { useEffect } from "react";
 
 type Properties = {
   condition: boolean;
+  ignoringDataAttribute: string;
   onClick: () => void;
   ref: React.RefObject<HTMLElement>;
 };
 
 const useHandleClickOutside = ({
   condition,
+  ignoringDataAttribute,
   onClick,
   ref,
 }: Properties): void => {
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent | React.MouseEvent): void => {
-      const hasTargetNode = (event.target as Node).contains(ref.current);
-      const isTargetNode = event.target === ref.current;
+    const handleClickOutside = ({
+      target,
+    }: MouseEvent | React.MouseEvent): void => {
+      const isTargetNodeContains = ref.current?.contains(target as HTMLElement);
+      const isTargetNode = target === ref.current;
+      const hasIgnoringDataAttribute = Boolean(
+        (target as HTMLElement).dataset[ignoringDataAttribute]
+      );
 
-      if (hasTargetNode && !isTargetNode) {
+      if (!isTargetNodeContains && !isTargetNode && !hasIgnoringDataAttribute) {
         onClick();
-        console.log("click");
       }
     };
 
     if (condition) {
       document.addEventListener("click", handleClickOutside);
-      console.log("add");
+
       return () => {
         document.removeEventListener("click", handleClickOutside);
-        console.log("remove");
       };
     }
   }, [condition, onClick, ref]);

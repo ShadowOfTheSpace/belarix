@@ -13,6 +13,7 @@ const BurgerButton: React.FC<Properties> = ({ isOpen, onClick }) => {
         "z-10 flex flex-col justify-center items-center gap-[5px] md:hidden rounded-[8px] w-[48px] h-[40px] transition-colors",
         isOpen ? "bg-bxm-main" : "bg-bxm-card"
       )}
+      data-sidebar
       onClick={onClick}
     >
       <motion.span
