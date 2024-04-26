@@ -21,6 +21,7 @@ module.exports = {
         s: { min: "768px" },
         md: { min: "900px" },
         lg: { min: "1100px" },
+        xl: { min: "1440px" },
         "has-hover": { raw: "(hover: hover)" },
         "no-hover": { raw: "(hover: none)" },
       },
