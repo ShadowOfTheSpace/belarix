@@ -1,4 +1,4 @@
-import { ReactComponent as RightArrow } from "../../../assets/icons/right-arrow.svg";
+import { ReactComponent as RightArrow } from "@assets/icons/right-arrow.svg";
 
 type Properties = {
   children?: React.ReactNode;

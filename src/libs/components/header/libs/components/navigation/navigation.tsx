@@ -1,4 +1,4 @@
-import { Link } from "../../../../link/link";
+import { Link } from "@libs/components/components";
 import { NAVIGATION_ITEMS } from "./libs/constants/constants";
 
 type Properties = {

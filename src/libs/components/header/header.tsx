@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
 import { useCallback, useRef, useState } from "react";
-import { ReactComponent as Logo } from "../../../assets/icons/belarix-logo.svg";
-import { CONTACT_EMAIL } from "../../constants/constants";
-import { useHandleClickOutside } from "../../hooks/hooks";
-import { BurgerButton } from "../burger-button/burger-button";
-import { Button } from "../button/button";
-import { Link } from "../link/link";
+import { ReactComponent as Logo } from "@assets/icons/belarix-logo.svg";
+import { CONTACT_EMAIL } from "@libs/constants/constants";
+import { useHandleClickOutside } from "@libs/hooks/hooks";
+import { BurgerButton, Button, Link } from "@libs/components/components";
 import { Navigation } from "./libs/components/components";
 
 const Header: React.FC = () => {

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { cn } from "../../utils/utils";
+import { cn } from "@libs/utils/utils";
 
 type Properties = {
   isOpen: boolean;
