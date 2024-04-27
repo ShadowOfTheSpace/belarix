@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "craco build GENERATE_SOURCEMAP=false",
     "test": "craco test",
     "eject": "craco eject"
   },
