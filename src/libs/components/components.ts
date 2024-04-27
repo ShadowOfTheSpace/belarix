@@ -5,4 +5,5 @@ export { Header } from "./header/header";
 export { Hero } from "./hero/hero";
 export { Icon } from "./icon/icon";
 export { Link } from "./link/link";
+export { Portfolio } from "./portfolio/portfolio";
 export { Services } from "./services/services";
