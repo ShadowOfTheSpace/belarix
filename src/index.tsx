@@ -7,16 +7,18 @@ import {
   Hero,
   Portfolio,
   Services,
+  Team,
 } from "@libs/components/components";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <div className="flex flex-col bg-bxm-main px-[10px] sm:px-[20px] md:px-[40px]">
+    <div className="flex flex-col bg-bxm-main px-[10px] sm:px-[20px] md:px-[40px] overflow-hidden">
       <Header />
       <Hero />
       <AboutUs />
       <Services />
       <Portfolio />
+      <Team />
     </div>
   </React.StrictMode>
 );
