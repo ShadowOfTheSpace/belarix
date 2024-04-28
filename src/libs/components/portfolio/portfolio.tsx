@@ -7,9 +7,9 @@ import { GalleryItem } from "./libs/components/components";
 
 const Portfolio: React.FC = () => {
   return (
-    <section className="flex flex-col items-center mt-[150px] mb-56 text-bxm-white">
+    <section className="flex flex-col items-center mt-[80px] xs:mt-[150px] text-bxm-white">
       <div className="w-full max-w-[1200px]">
-        <h2 className="text-[25px] text-end xs:text-[46px] uppercase leading-[30px] xs:leading-[56px] tracking-lighter xs:tracking-light">
+        <h2 className="font-semibold text-[25px] text-end xs:text-[46px] uppercase leading-[30px] xs:leading-[56px] tracking-lighter xs:tracking-light">
           100+ Successful Projects Delivered
         </h2>
       </div>
