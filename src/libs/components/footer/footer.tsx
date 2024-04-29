@@ -12,7 +12,7 @@ import { AppRoute } from "@libs/enums/enums";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex justify-center bg-bxm-footer mt-[80px] xs:mt-[120px] s:mb-[60px] xs:mb-[20px] -ml-[10px] xs:ml-0 px-[10px] lg:px-[40px] xs:px-[40px] pt-[40px] lg:pt-[100px] pb-[40px] xs:pb-[23px] xs:rounded-[30px] w-screen xs:w-full">
+    <footer className="flex justify-center bg-bxm-footer sm:mx-[20px] md:mx-[40px] mt-[80px] xs:mt-[120px] s:mb-[60px] sm:mb-[20px] px-[10px] xs:px-[40px] pt-[40px] lg:pt-[100px] pb-[40px] xs:pb-[23px] sm:rounded-[10px] md:rounded-[30px]">
       <div className="flex flex-col w-full max-w-[1200px]">
         <div className="flex s:flex-row flex-col justify-between gap-[40px] w-full">
           <div className="flex flex-col">
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-wrap items-center gap-[16px] xs:gap-[20px] mt-[40px] xs:mt-[118px] text-[12px] text-bxm-gray xs:text-[14px] leading-[16px] xs:leading-[19px]">
+        <div className="flex flex-wrap items-center gap-[16px] xs:gap-[20px] mt-[40px] s:mt-[118px] text-[12px] text-bxm-gray xs:text-[14px] leading-[16px] xs:leading-[19px]">
           <Link href="/" className="basis-full md:basis-auto">
             <Logo />
           </Link>
