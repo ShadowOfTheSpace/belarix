@@ -9,7 +9,7 @@ const Portfolio: React.FC = () => {
   return (
     <section
       id="portfolio"
-      className="flex flex-col items-center mt-[80px] xs:mt-[150px] text-bxm-white"
+      className="flex flex-col items-center mt-[80px] xs:mt-[150px] px-[10px] sm:px-[20px] md:px-[40px] text-bxm-white"
     >
       <div className="w-full max-w-[1200px]">
         <h2 className="font-semibold text-[25px] text-end xs:text-[46px] uppercase leading-[30px] xs:leading-[56px] tracking-lighter xs:tracking-light">

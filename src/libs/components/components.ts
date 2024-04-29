@@ -1,4 +1,5 @@
 export { AboutUs } from "./about-us/about-us";
+export { App } from "./app/app";
 export { BurgerButton } from "./burger-button/burger-button";
 export { Button } from "./button/button";
 export {
@@ -8,6 +9,7 @@ export {
   CarouselNext,
   CarouselPrevious,
 } from "./carousel/carousel";
+export { Footer } from "./footer/footer";
 export { Header } from "./header/header";
 export { Hero } from "./hero/hero";
 export { Icon } from "./icon/icon";

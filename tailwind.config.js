@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "bxm-card": "#1F1F1F",
+        "bxm-footer": "#2D2D2D",
         "bxm-black": "#000000",
         "bxm-gray": "#B7B7B7",
         "bxm-red": "#E20613",
