@@ -30,7 +30,7 @@ const Header: React.FC = () => {
   });
 
   return (
-    <header className="top-0 z-20 sticky flex justify-center bg-bxm-main pt-[16px] sm:pt-[13px] pb-[16px] sm:pb-[13px] w-full">
+    <header className="top-0 z-20 sticky flex justify-center bg-bxm-main -ml-[10px] xs:ml-0 px-[10px] xs:px-0 pt-[16px] sm:pt-[13px] pb-[16px] sm:pb-[13px] w-screen xs:w-full">
       <div className="flex justify-between items-center md:items-start basis-[1200px]">
         <Link href="/">
           <Logo className="w-[80px] s:w-[130px] xs:w-[100px] h-[32px] s:h-[52px] xs:h-[40px]" />

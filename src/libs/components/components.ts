@@ -14,4 +14,5 @@ export { Icon } from "./icon/icon";
 export { Link } from "./link/link";
 export { Portfolio } from "./portfolio/portfolio";
 export { Services } from "./services/services";
+export { Steps } from "./steps/steps";
 export { Team } from "./team/team";
