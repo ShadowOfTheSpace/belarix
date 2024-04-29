@@ -2,7 +2,10 @@ import { TeamCarousel } from "./libs/components/team-carousel/team-carousel/team
 
 const Team: React.FC = () => {
   return (
-    <section className="flex flex-col md:items-center gap-y-[16px] xs:gap-y-[70px] mt-[80px] xs:mt-[150px]">
+    <section
+      id="team"
+      className="flex flex-col md:items-center gap-y-[16px] xs:gap-y-[70px] mt-[80px] xs:mt-[150px]"
+    >
       <h2 className="w-full max-w-[1200px] font-semibold text-[25px] text-bxm-white xs:text-[46px] uppercase leading-[30px] xs:leading-[56px] tracking-lighter xs:tracking-light">
         Meet Our Team
       </h2>
