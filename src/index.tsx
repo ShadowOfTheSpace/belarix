@@ -7,6 +7,7 @@ import {
   Hero,
   Portfolio,
   Services,
+  Steps,
   Team,
 } from "@libs/components/components";
 
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
       <Services />
       <Portfolio />
       <Team />
+      <Steps />
     </div>
   </React.StrictMode>
 );
