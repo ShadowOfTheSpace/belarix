@@ -1,0 +1,3 @@
+const CONTACT_PHONE = "+370 674-75-434";
+
+export { CONTACT_PHONE };
