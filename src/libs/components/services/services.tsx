@@ -4,10 +4,10 @@ import { ForWhomCard, MarkedList } from "./libs/components/components";
 const Services: React.FC = () => {
   return (
     <section className="flex flex-col items-center mt-[80px] xs:mt-[155px]">
-      <h2 className="mb-[16px] xs:mb-[20px] font-semibold text-[25px] text-bxm-white text-center xs:text-[46px] xs:text-start uppercase xs:leading-[56px] tracking-lighter xs:tracking-light">
+      <h2 className="font-semibold text-[25px] text-bxm-white text-center xs:text-[46px] xs:text-start uppercase xs:leading-[56px] tracking-lighter xs:tracking-light">
         You Will Benefit from Our Services
       </h2>
-      <p className="text-[18px] text-bxm-gray text-center xs:text-[20px] xs:leading-[24px]">
+      <p className="mt-[16px] xs:mt-[20px] text-[18px] text-bxm-gray text-center xs:text-[20px] xs:leading-[24px]">
         Got an idea, but need help with the technical side?
       </p>
       <p className="text-[18px] text-bxm-gray text-center xs:text-[20px] xs:leading-[24px]">
@@ -24,7 +24,7 @@ const Services: React.FC = () => {
           />
         </ForWhomCard>
         <img
-          className="flex-grow rounded-[10px] max-h-[262px] md:max-h-[293px] object-cover"
+          className="flex-grow rounded-[10px] min-w-[calc(50%-8.5px)] md:min-w-max max-h-[262px] md:max-h-[293px] object-cover"
           src={serviceImage}
           alt="service"
         />
