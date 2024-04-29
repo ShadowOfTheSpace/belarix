@@ -8,6 +8,7 @@ export {
   CarouselNext,
   CarouselPrevious,
 } from "./carousel/carousel";
+export { Footer } from "./footer/footer";
 export { Header } from "./header/header";
 export { Hero } from "./hero/hero";
 export { Icon } from "./icon/icon";

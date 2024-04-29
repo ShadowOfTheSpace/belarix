@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "@assets/css/index.css";
 import {
   AboutUs,
+  Footer,
   Header,
   Hero,
   Portfolio,
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
       <Portfolio />
       <Team />
       <Steps />
+      <Footer />
     </div>
   </React.StrictMode>
 );
