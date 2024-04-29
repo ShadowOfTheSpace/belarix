@@ -5,7 +5,7 @@ const Services: React.FC = () => {
   return (
     <section
       id="services"
-      className="flex flex-col items-center mt-[80px] xs:mt-[155px]"
+      className="flex flex-col items-center mt-[80px] xs:mt-[155px] px-[10px] sm:px-[20px] md:px-[40px]"
     >
       <h2 className="font-semibold text-[25px] text-bxm-white text-center xs:text-[46px] xs:text-start uppercase xs:leading-[56px] tracking-lighter xs:tracking-light">
         You Will Benefit from Our Services

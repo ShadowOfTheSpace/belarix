@@ -1,4 +1,5 @@
 export { AboutUs } from "./about-us/about-us";
+export { App } from "./app/app";
 export { BurgerButton } from "./burger-button/burger-button";
 export { Button } from "./button/button";
 export {

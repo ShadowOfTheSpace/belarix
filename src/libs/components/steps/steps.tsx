@@ -3,7 +3,7 @@ import stepsImage from "@assets/images/steps-image.png";
 
 const Steps: React.FC = () => {
   return (
-    <section className="flex flex-col items-center mt-[80px] xs:mt-[150px]">
+    <section className="flex flex-col items-center mt-[80px] xs:mt-[150px] px-[10px] sm:px-[20px] md:px-[40px]">
       <h2 className="font-semibold text-[32px] text-bxm-white text-center xs:text-[52px] uppercase leading-[37px] xs:leading-[63px] tracking-lighter xs:tracking-light">
         From Thought to Finish
       </h2>
