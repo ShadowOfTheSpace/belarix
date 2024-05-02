@@ -38,7 +38,7 @@ const Header: React.FC = () => {
   return (
     <header className="top-0 z-20 sticky flex justify-center bg-bxm-main px-[10px] sm:px-[20px] md:px-[40px] pt-[16px] sm:pt-[13px] pb-[16px] sm:pb-[13px] w-screen xs:w-full">
       <div className="flex justify-between items-center md:items-start basis-[1200px]">
-        <Link href="/" title="Belarix Media">
+        <Link href="/belarix" title="Belarix Media">
           <Logo className="w-[80px] s:w-[130px] xs:w-[100px] h-[32px] s:h-[52px] xs:h-[40px]" />
         </Link>
         <RemoveScroll enabled={isSidebarShown} forwardProps>
