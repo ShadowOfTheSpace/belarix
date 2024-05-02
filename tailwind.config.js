@@ -11,6 +11,7 @@ module.exports = {
         "bxm-red": "#E20613",
         "bxm-main": "#161517",
         "bxm-white": "#FFFFFF",
+        "bxm-modal-background": "#16151766",
       },
       letterSpacing: {
         lighter: "calc(1em / -50)",
