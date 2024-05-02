@@ -1,3 +1,0 @@
-const DESIGNED = "";
-
-export { DESIGNED };

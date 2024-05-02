@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/belarix/static/css/main.6157ca50.css",
+    "main.js": "/belarix/static/js/main.2117be0d.js",
+    "static/media/Inter-SemiBold.ttf": "/belarix/static/media/Inter-SemiBold.6058d3da655fb35169c2.ttf",
+    "static/media/Inter-Medium.ttf": "/belarix/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
+    "static/media/Inter-Regular.ttf": "/belarix/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/hero-image.webp": "/belarix/static/media/hero-image.96e700855ed6e48fc211.webp",
+    "static/media/steps-image.webp": "/belarix/static/media/steps-image.571aa5e7b236c4b1d751.webp",
+    "static/media/startup-image.webp": "/belarix/static/media/startup-image.2e10a975fa3c1c7f34e3.webp",
+    "static/media/employer-image.webp": "/belarix/static/media/employer-image.33e5455edb6b366a0bca.webp",
+    "static/media/advertising-image.webp": "/belarix/static/media/advertising-image.979baef7f6b69dc16a00.webp",
+    "static/media/pitches-image.webp": "/belarix/static/media/pitches-image.463bb76eb47917e25709.webp",
+    "static/media/service-image.webp": "/belarix/static/media/service-image.0d904ee29cf796bbc2be.webp",
+    "static/media/blogger-image.webp": "/belarix/static/media/blogger-image.c1396b967a47205b248b.webp",
+    "static/media/team-1-image.webp": "/belarix/static/media/team-1-image.5c385c721cd737a5d003.webp",
+    "static/media/team-2-image.webp": "/belarix/static/media/team-2-image.804d6b825f6ff5fa6bb4.webp",
+    "static/media/team-3-image.webp": "/belarix/static/media/team-3-image.b04f7d76e1c9d20dd7da.webp",
+    "static/media/team-4-image.webp": "/belarix/static/media/team-4-image.945c4f4ce1896755e0a3.webp",
+    "static/media/belarix-logo.svg": "/belarix/static/media/belarix-logo.3c4de826ebbac28a26a814716ffd55f1.svg",
+    "static/media/flower.svg": "/belarix/static/media/flower.f4049f98b250a43c462db6511b0bb6f5.svg",
+    "static/media/diamond.svg": "/belarix/static/media/diamond.2242a7f11ffd90fe1456f5ee19df1a2b.svg",
+    "static/media/arch.svg": "/belarix/static/media/arch.f6d40c6b6e792f50e003d35e54e7f51b.svg",
+    "index.html": "/belarix/index.html",
+    "static/media/hexagon.svg": "/belarix/static/media/hexagon.3759b4aea15157ce9f6353a3215a9e7e.svg",
+    "static/media/right-arrow.svg": "/belarix/static/media/right-arrow.326f29ff9e50650205aece358f0666dd.svg",
+    "static/media/sparkle.svg": "/belarix/static/media/sparkle.13858b65f1710913893b31c5fd5b6fbd.svg",
+    "static/media/triangle.svg": "/belarix/static/media/triangle.08045b69f73162ad4946ed8a516ce419.svg",
+    "static/media/arrow-left.svg": "/belarix/static/media/arrow-left.4ec9a89b3987c6679c8e91e8dae9fab1.svg",
+    "static/media/arrow-right.svg": "/belarix/static/media/arrow-right.96aebc1ae0aa3b33e35b3e2fad5f130d.svg",
+    "static/media/check.svg": "/belarix/static/media/check.3154cabd4df857ddde35f3e673bbf35b.svg",
+    "main.6157ca50.css.map": "/belarix/static/css/main.6157ca50.css.map",
+    "main.2117be0d.js.map": "/belarix/static/js/main.2117be0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6157ca50.css",
+    "static/js/main.2117be0d.js"
+  ]
+}
