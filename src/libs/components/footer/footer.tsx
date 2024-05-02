@@ -61,7 +61,11 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="flex flex-wrap items-center gap-[16px] xs:gap-[20px] mt-[40px] s:mt-[118px] text-[12px] text-bxm-gray xs:text-[14px] leading-[16px] xs:leading-[19px]">
-          <Link href="/" className="basis-full md:basis-auto">
+          <Link
+            href="/"
+            title="Belarix Media"
+            className="basis-full md:basis-auto"
+          >
             <Logo />
           </Link>
           <span className="md:ml-[17px] basis-full s:basis-auto">
