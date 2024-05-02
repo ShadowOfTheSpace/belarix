@@ -1,4 +1,4 @@
-import serviceImage from "@assets/images/service-image.png";
+import serviceImage from "@assets/images/service-image.webp";
 import { ForWhomCard, MarkedList } from "./libs/components/components";
 
 const Services: React.FC = () => {

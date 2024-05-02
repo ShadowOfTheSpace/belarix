@@ -1,8 +1,8 @@
-import advertising from "@assets/images/advertising-image.png";
-import blogger from "@assets/images/blogger-image.png";
-import employer from "@assets/images/employer-image.png";
-import pitches from "@assets/images/pitches-image.png";
-import startup from "@assets/images/startup-image.png";
+import advertising from "@assets/images/advertising-image.webp";
+import blogger from "@assets/images/blogger-image.webp";
+import employer from "@assets/images/employer-image.webp";
+import pitches from "@assets/images/pitches-image.webp";
+import startup from "@assets/images/startup-image.webp";
 import { GalleryItem } from "./libs/components/components";
 
 const Portfolio: React.FC = () => {
