@@ -15,6 +15,7 @@ const BurgerButton: React.FC<Properties> = ({ isOpen, onClick }) => {
       )}
       data-sidebar
       onClick={onClick}
+      title={isOpen ? "Close menu" : "Open menu"}
     >
       <motion.span
         animate={{

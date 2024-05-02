@@ -1,5 +1,5 @@
 import { StepCard } from "./libs/components/components";
-import stepsImage from "@assets/images/steps-image.png";
+import stepsImage from "@assets/images/steps-image.webp";
 
 const Steps: React.FC = () => {
   return (

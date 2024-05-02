@@ -1,5 +1,6 @@
 import {
   AboutUs,
+  ContactUsModal,
   Footer,
   Header,
   Hero,
@@ -22,6 +23,7 @@ const App: React.FC = () => {
         <Steps />
       </main>
       <Footer />
+      <ContactUsModal />
     </>
   );
 };
