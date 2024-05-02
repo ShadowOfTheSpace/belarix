@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
             <h2 className="mt-[2px] xs:mt-0 font-semibold text-[25px] text-balance text-bxm-white xs:text-[46px] uppercase leading-[30px] xs:leading-[56px] tracking-lighter xs:tracking-light">
               Let’s Make a Difference Together!
             </h2>
-            <p className="mt-[16px] xs:mt-[30px] text-[24px] text-bxm-gray leading-[29px]">
+            <p className="mt-[16px] xs:mt-[30px] text-[18px] text-bxm-gray xs:text-[24px] leading-[22px] xs:leading-[29px]">
               Get in touch or leave your contacts to discuss your idea
             </p>
           </div>
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
             </Link>
             <Link
               href={CONTACT_TELEGRAM}
-              className="text-[18px] text-bxm-white active:text-bxm-gray xs:text-[20px] leading-[24px] xs:leading-[27px] transition-colors"
+              className="text-[18px] text-bxm-white text-end active:text-bxm-gray s:text-start xs:text-[20px] leading-[24px] xs:leading-[27px] transition-colors"
               isOpenInNewPage
             >
               Telegram
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
           <span className="md:ml-[17px] basis-full s:basis-auto">
             Copyright © 2024 Belarix media
           </span>
-          <Link href={AppRoute.TERM_OF_USE} className="1xs:ml-[10px]">
+          <Link href={AppRoute.TERM_OF_USE} className="s:ml-[10px]">
             Term Of Use
           </Link>
           <Link href={AppRoute.PRIVACY_POLICY} className="ml-[16px] xs:ml-0">
@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
           </Link>
           <Link
             href={DESIGNED}
-            className="ml-auto basis-full s:basis-auto"
+            className="ml-auto basis-full s:basis-auto mt-[24px] s:mt-0"
             isOpenInNewPage
           >
             Designed
