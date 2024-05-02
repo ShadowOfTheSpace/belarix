@@ -23,7 +23,7 @@ const Modal: React.FC<Properties> = ({ children, isOpen, onClose }) => {
               exit={{ opacity: 0 }}
             >
               <ModalButton
-                className="top-[16px] xs:top-[20px] right-[10px] xs:right-[20px] absolute"
+                className="top-[16px] xs:top-[20px] right-[10px] xs:right-[20px] z-10 absolute"
                 onClick={onClose}
               />
               <>{children}</>
