@@ -17,7 +17,7 @@ const Button: React.FC<Properties> = ({
   children,
   className,
   type = "button",
-  isPending,
+  isPending = false,
 }) => {
   return (
     <>
@@ -31,10 +31,14 @@ const Button: React.FC<Properties> = ({
           disabled={isPending}
           onClick={onClick}
         >
-          <motion.div animate={{ opacity: isPending ? 0 : 1 }}>
+          <motion.div
+            initial={{ opacity: 1 }}
+            animate={{ opacity: isPending ? 0 : 1 }}
+          >
             {children}
           </motion.div>
           <motion.div
+            initial={{ opacity: 0 }}
             animate={{ opacity: isPending ? 1 : 0 }}
             className="absolute inset-0 border-[3px] m-auto border-t-transparent border-bxm-red rounded-full animate-spin size-[20px]"
           ></motion.div>
