@@ -1,3 +1,3 @@
-const CONTACT_WHATS_APP = "/belarix";
+const CONTACT_WHATS_APP = "";
 
 export { CONTACT_WHATS_APP };
