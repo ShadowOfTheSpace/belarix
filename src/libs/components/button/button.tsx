@@ -33,6 +33,7 @@ const Button: React.FC<Properties> = ({
             className
           )}
           onClick={onClick}
+          title="Contact us"
         >
           <RightArrow className="w-[26px] md:w-[32px] h-[24px] md:h-[30px]" />
         </button>

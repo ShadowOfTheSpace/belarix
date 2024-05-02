@@ -21,6 +21,7 @@ const CarouselButton = forwardRef<HTMLButtonElement, Properties>(
         ref={ref}
         onClick={onClick}
         disabled={isDisabled}
+        title={variant === "left" ? "Previous" : "Next"}
       >
         {variant === "left" ? <LeftArrowIcon /> : <RightArrowIcon />}
       </button>
