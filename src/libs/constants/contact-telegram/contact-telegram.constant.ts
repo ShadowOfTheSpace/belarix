@@ -1,3 +1,3 @@
-const CONTACT_TELEGRAM = "";
+const CONTACT_TELEGRAM = "/belarix";
 
 export { CONTACT_TELEGRAM };

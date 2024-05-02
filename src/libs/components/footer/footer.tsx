@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex flex-wrap items-center gap-[16px] xs:gap-[20px] mt-[40px] s:mt-[118px] text-[12px] text-bxm-gray xs:text-[14px] leading-[16px] xs:leading-[19px]">
           <Link
-            href="/"
+            href="/belarix"
             title="Belarix Media"
             className="basis-full md:basis-auto"
           >

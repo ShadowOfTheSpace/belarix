@@ -1,5 +1,3 @@
-import { NavLink } from "react-router-dom";
-
 type Properties = {
   children: React.ReactNode;
   className?: string;
@@ -18,16 +16,16 @@ const Link: React.FC<Properties> = ({
   title,
 }) => {
   return (
-    <NavLink
+    <a
       className={className}
-      to={href}
+      href={href}
       target={isOpenInNewPage ? "_blank" : undefined}
       rel="noreferrer"
       onClick={onClick}
       title={title}
     >
       {children}
-    </NavLink>
+    </a>
   );
 };
 
