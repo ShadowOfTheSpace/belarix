@@ -1,3 +1,4 @@
+import emailjs from "@emailjs/browser";
 import { Button, Checkbox, Input, Modal } from "@libs/components/components";
 import { AppRoute } from "@libs/enums/enums";
 import { useAppForm } from "@libs/hooks/hooks";
@@ -17,6 +18,8 @@ const ContactUsModal: React.FC = () => {
     "in-progress"
   );
 
+  const [emailIsSending, setEmailIsSending] = useState(false);
+
   const handleModalClose = useCallback(() => {
     navigate(AppRoute.ROOT);
   }, [navigate]);
@@ -33,10 +36,25 @@ const ContactUsModal: React.FC = () => {
     validationSchema: feedbackValidationSchema,
   });
 
-  const handleSendEmail = useCallback((feedback: Feedback) => {
-    setModalState("success");
-    console.log(feedback);
-  }, []);
+  const handleSendEmail = useCallback(
+    async ({ comments, companyName, email, name, phone }: Feedback) => {
+      setEmailIsSending(true);
+      emailjs.init({ publicKey: "WVSs5dr5Y0wU7GGEC" });
+      emailjs
+        .send("service_76783xa", "template_pbq0rak", {
+          comments,
+          companyName,
+          email,
+          name,
+          phone,
+        })
+        .then(() => {
+          setEmailIsSending(false);
+          setModalState("success");
+        });
+    },
+    []
+  );
 
   useEffect(() => {
     reset();
@@ -103,6 +121,7 @@ const ContactUsModal: React.FC = () => {
             <Button
               className="mt-[40px] xs:mt-[50px] xs:max-w-fit"
               type="submit"
+              isPending={emailIsSending}
             >
               Submit
             </Button>
