@@ -9,11 +9,15 @@ export {
   CarouselNext,
   CarouselPrevious,
 } from "./carousel/carousel";
+export { Checkbox } from "./checkbox/checkbox";
+export { ContactUsModal } from "./contact-us-modal/contact-us-modal";
 export { Footer } from "./footer/footer";
 export { Header } from "./header/header";
 export { Hero } from "./hero/hero";
 export { Icon } from "./icon/icon";
+export { Input } from "./input/input";
 export { Link } from "./link/link";
+export { Modal } from "./modal/modal";
 export { Portfolio } from "./portfolio/portfolio";
 export { Services } from "./services/services";
 export { Steps } from "./steps/steps";

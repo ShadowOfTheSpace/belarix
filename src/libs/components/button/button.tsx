@@ -6,6 +6,7 @@ type Properties = {
   onClick?: () => void;
   variant?: "default" | "arrow";
   className?: string;
+  type?: "button" | "submit";
 };
 
 const Button: React.FC<Properties> = ({
@@ -13,6 +14,7 @@ const Button: React.FC<Properties> = ({
   variant = "default",
   children,
   className,
+  type = "button",
 }) => {
   return (
     <>
@@ -22,6 +24,7 @@ const Button: React.FC<Properties> = ({
             "bg-white has-hover:hover:bg-transparent no-hover:active:bg-transparent px-[30px] py-[13px] rounded-[10px] w-[160px] md:w-auto font-medium text-[14px] text-bxm-black md:text-[16px] has-hover:hover:text-bxm-white no-hover:active:text-bxm-white leading-[normal] tracking-lighter transition-colors duration-300",
             className
           )}
+          type={type}
           onClick={onClick}
         >
           {children}
