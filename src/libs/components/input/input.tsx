@@ -47,7 +47,7 @@ const Input = <T extends FieldValues>({
       {isTextArea ? (
         <textarea
           className={cn(
-            "border-[#505050] border-y bg-bxm-card py-[16px] xs:py-[20px] text-[18px]  xs:text-[20px] text-bxm-gray leading-[22px] xs:leading-[27px] outline-none resize-none focus:text-bxm-white focus:border-y-bxm-white focus:placeholder:text-transparent autofill:border-y-bxm-white",
+            "border-[#505050] border-y autofill:border-y-bxm-white focus:border-y-bxm-white bg-bxm-card py-[16px] xs:py-[20px] text-[18px] text-bxm-gray focus:text-bxm-white focus:placeholder:text-transparent xs:text-[20px] leading-[22px] xs:leading-[27px] outline-none resize-none",
             className,
             hasError && "border-bxm-red"
           )}
@@ -68,7 +68,7 @@ const Input = <T extends FieldValues>({
                     maskChar={maskChar}
                     placeholder={placeholder}
                     className={cn(
-                      "border-[#505050] border-y bg-bxm-card pt-[16px] pb-[20px] xs:py-[20px] text-[18px] xs:text-[20px] xs:leading-[27px] text-bxm-gray leading-[22px] outline-none focus:text-bxm-white focus:border-y-bxm-white focus:placeholder:text-transparent autofill:border-y-bxm-white",
+                      "border-[#505050] border-y autofill:border-y-bxm-white focus:border-y-bxm-white bg-bxm-card xs:py-[20px] pt-[16px] pb-[20px] text-[18px] text-bxm-gray focus:text-bxm-white focus:placeholder:text-transparent xs:text-[20px] leading-[22px] xs:leading-[27px] outline-none",
                       hasError && "border-bxm-red"
                     )}
                     {...rest}
@@ -79,7 +79,7 @@ const Input = <T extends FieldValues>({
           ) : (
             <input
               className={cn(
-                "border-[#505050] border-y bg-bxm-card pt-[16px] pb-[20px] xs:py-[20px] text-[18px] xs:text-[20px] text-bxm-gray leading-[22px] xs:leading-[27px] outline-none focus:text-bxm-white focus:border-y-bxm-white focus:placeholder:text-transparent autofill:border-y-bxm-white",
+                "border-[#505050] border-y autofill:border-y-bxm-white focus:border-y-bxm-white bg-bxm-card xs:py-[20px] pt-[16px] pb-[20px] text-[18px] text-bxm-gray focus:text-bxm-white focus:placeholder:text-transparent xs:text-[20px] leading-[22px] xs:leading-[27px] outline-none",
                 hasError && "border-bxm-red"
               )}
               {...field}
