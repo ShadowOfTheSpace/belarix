@@ -7,7 +7,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/belarix">
       <Routes>
         <Route path={AppRoute.ROOT} element={<App />} />
         <Route path={AppRoute.CONTACT_US} element={<App />} />
