@@ -37,9 +37,7 @@ const Checkbox = <T extends FieldValues>({
         render={({ field: { onChange, value } }) => {
           return (
             <CheckboxPrimitive.Root
-              className={cn(
-                "size-[24px] shrink-0 rounded-[4px] border border-[#313131] data-[state=checked]:bg-bxm-main text-bxm-white data-[state=checked]:border-bxm-white"
-              )}
+              className="border-[#313131] data-[state=checked]:bg-bxm-main border has-hover:hover:border-bxm-white no-hover:active:border-bxm-white rounded-[4px] text-bxm-white transition-colors shrink-0 size-[24px]"
               checked={value}
               onCheckedChange={onChange}
             >
