@@ -7,10 +7,18 @@ import {
   CONTACT_WHATS_APP,
   DESIGNED,
 } from "@libs/constants/constants";
+import { useNavigate } from "react-router-dom";
 
 import { AppRoute } from "@libs/enums/enums";
+import { useCallback } from "react";
 
 const Footer: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleContactButtonClick = useCallback(() => {
+    navigate(AppRoute.CONTACT_US);
+  }, [navigate]);
+
   return (
     <footer className="flex justify-center bg-bxm-footer sm:mx-[20px] md:mx-[40px] mt-[80px] xs:mt-[120px] s:mb-[60px] sm:mb-[20px] px-[10px] xs:px-[40px] pt-[40px] lg:pt-[100px] pb-[40px] xs:pb-[23px] sm:rounded-[10px] md:rounded-[30px]">
       <div className="flex flex-col w-full max-w-[1200px]">
@@ -26,7 +34,11 @@ const Footer: React.FC = () => {
               Get in touch or leave your contacts to discuss your idea
             </p>
           </div>
-          <Button variant="arrow" className="s:self-end shrink-0" />
+          <Button
+            variant="arrow"
+            className="s:self-end shrink-0"
+            onClick={handleContactButtonClick}
+          />
         </div>
         <div className="flex justify-between border-y-[#505050] border-y-[1px] mt-[40px] xs:mt-[70px] pt-[25px] pb-[22px]">
           <div className="flex flex-col-reverse justify-between gap-y-[16px] s:contents">

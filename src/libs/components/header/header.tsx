@@ -5,8 +5,12 @@ import { CONTACT_EMAIL } from "@libs/constants/constants";
 import { useHandleClickOutside } from "@libs/hooks/hooks";
 import { BurgerButton, Button, Link } from "@libs/components/components";
 import { Navigation } from "./libs/components/components";
+import { useNavigate } from "react-router-dom";
+import { AppRoute } from "@libs/enums/enums";
 
 const Header: React.FC = () => {
+  const navigate = useNavigate();
+
   const sidebarReference = useRef<null | HTMLDivElement>(null);
   const [isSidebarShown, setIsSidebarShown] = useState<boolean>(false);
 
@@ -20,7 +24,8 @@ const Header: React.FC = () => {
 
   const handleContactButtonClick = useCallback(() => {
     handleCloseSidebar();
-  }, [handleCloseSidebar]);
+    navigate(AppRoute.CONTACT_US);
+  }, [navigate, handleCloseSidebar]);
 
   useHandleClickOutside({
     condition: isSidebarShown,
